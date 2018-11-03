@@ -4,7 +4,7 @@
 
 class MathFunctions {
 public:
-	std::string doStuff();
+	std::string doStuff(bool ena);
 
 };
 

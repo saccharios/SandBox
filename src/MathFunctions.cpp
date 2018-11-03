@@ -1,9 +1,16 @@
 #include "MathFunctions.h"
 #include <string>
 
-std::string MathFunctions::doStuff()
+std::string MathFunctions::doStuff(bool ena)
 {
-	return "hello world";
+	if(ena)
+	{
+		return "hello world";
+	}
+	else
+	{
+		return "good bye";
+	}
 }
 
 
