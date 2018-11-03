@@ -17,15 +17,5 @@ env.Append(CPPPATH=[Dir('.').abspath + '/src'])
 
 
 build_dir = 'build'
-# SConscript('src/SConscript.py', variant_dir=build_dir, duplicate=1, exports = 'env')
 SConscript('UnitTest.py', variant_dir=build_dir, duplicate=0, exports = 'env')
 
-
-# src_files= \
-# [
-#     'test/Main.cpp',
-#     'test/MathFunctionsTest.cpp',
-#     'src/MathFunctions.cpp',
-# ]
-# 
-# ret = env.Program(target = 'SandBox', source = src_files)
