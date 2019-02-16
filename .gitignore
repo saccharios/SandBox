@@ -33,5 +33,6 @@
 
 Debug\
 Release\
-build\
+build/*
 *.dblite
+
